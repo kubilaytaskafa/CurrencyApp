@@ -1,0 +1,73 @@
+.currency-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 3px solid black;
+  width: 40em;
+  height: 20em;
+}
+.amount {
+  width: 80px;
+  height: 25px;
+  margin-right: 10px;
+}
+.from-currency-option {
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+}
+.to-currency-option {
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+}
+.result {
+  width: 80px;
+  height: 25px;
+}
+
+.right-arrow {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.logo {
+  background-color: black;
+  margin-top: -50px;
+  border-radius: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.logo h3 {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.change button {
+  border: none;
+  color: white;
+  background-color: black;
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
